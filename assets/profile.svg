@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile illustration">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#2a2f86" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="#061025" />
+  <circle cx="300" cy="220" r="84" fill="url(#g)" opacity="0.95" />
+  <rect x="120" y="340" width="360" height="120" rx="16" fill="#081028" />
+  <g fill="#7f8fa4" font-family="Inter, Arial" font-size="20" text-anchor="middle">
+    <text x="300" y="370">Mohammed Majid</text>
+    <text x="300" y="400" font-size="14">Front-end Engineer</text>
+  </g>
+</svg>
