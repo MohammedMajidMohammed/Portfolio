@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Mohammed Majid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+  <a class="brand" href="#">Mohammed Majid</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" id="downloadResume" href="#">Resume</a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-left">
+  <h1 class="animate">Hi, I’m <span class="accent">Mohammed Majid</span></h1>
+  <p class="lead animate"><span id="typed" class="lead-typed">Data Analyst</span></p>
+  <p class="animate small">Behira, Egypt · <a class="link" href="mailto:mohmajid2004@icloud.com">mohmajid2004@icloud.com</a> · 01552012004 · <a class="link" href="https://www.linkedin.com/in/mohammed-majid-55a4a8388/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+        <div class="cta animate">
+          <a class="btn primary" id="heroContact" href="#contact">Contact me</a>
+          <a class="btn ghost" id="heroResume" href="#">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-blob" aria-hidden="true"></div>
+        <div class="hero-image animate">
+          <img src="assets/profile.svg" alt="Profile illustration" class="profile">
+        </div>
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+      <h2 class="section-title">Profile</h2>
+      <div class="card">
+        <p>A motivated and detail-oriented student at Menoufia National University with a strong, practical foundation in Data Analysis, Web Design, and AI-driven Computer Vision. Possesses hands-on experience gained from intensive training programs certified by industry leaders like Microsoft and Egypt's National Telecommunication Institute (NTI). Eager to apply a versatile skill set to contribute to innovative projects, solve complex problems, and drive impactful results in a challenging technical environment.</p>
+      </div>
+
+      <h2 class="section-title" style="margin-top:22px">Education</h2>
+      <div class="card grid">
+        <div>
+          <strong>Menoufia National University</strong>
+          <div><em>Bachelor of Computer & Artificial Intelligence</em></div>
+          <div>GPA: 3.07 / 4.0</div>
+        </div>
+        <div>
+          <div>2022 – 2026 | Menoufia, Egypt</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience container" id="experience">
+      <h2 class="section-title">Professional experience</h2>
+      <div class="timeline">
+        <article class="timeline-item animate">
+          <h3>Data Analyst (Trainee) — Microsoft, Ministry of Communications and Information Technology, & Care Egypt</h3>
+          <time>08/2025 – 09/2025 | Egypt</time>
+          <p>Completed a certified Data Analysis training course designed to build a new generation of data professionals. The program provided comprehensive, hands-on experience across the entire data lifecycle, including data collection, cleaning, processing, and interpretation. Developed practical skills in using advanced tools to transform raw data into actionable insights, build interactive dashboards, and generate professional reports to support data-driven decision-making.</p>
+        </article>
+
+        <article class="timeline-item animate">
+          <h3>AI & Computer Vision Specialist (Trainee) — CREATIVA (Digital Egypt Innovation Centers) & AMIT</h3>
+          <time>04/2025 – 05/2025 | Menoufia, Egypt</time>
+          <p>Completed a 35-hour specialized training program focused on fundamentals and practical applications of Artificial Intelligence and Computer Vision. Gained hands-on experience in understanding and implementing AI models for tasks such as image recognition, object detection, and visual pattern analysis.</p>
+        </article>
+
+        <article class="timeline-item animate">
+          <h3>Freelance Data Analyst (Trainee) — CREATIVA (Digital Egypt Innovation Centers) & AMIT</h3>
+          <time>03/2025 – 03/2025 | Menoufia, Egypt</time>
+          <p>Participated in a targeted 21-hour workshop focused on business and operational aspects of a freelance data analysis career. The curriculum included developing a professional portfolio, mastering client communication, creating effective project proposals, and strategies for pricing and marketing freelance services.</p>
+        </article>
+
+        <article class="timeline-item animate">
+          <h3>Data Analyst (Trainee) — CREATIVA (Digital Egypt Innovation Centers) & AMIT</h3>
+          <time>02/2025 – 02/2025 | Menoufia, Egypt</time>
+          <p>Successfully completed a 35-hour comprehensive program focused on practical, hands-on data analysis. The training covered advanced techniques for data processing, statistical interpretation, and data visualization to extract meaningful insights and solve real-world problems.</p>
+        </article>
+
+        <article class="timeline-item animate">
+          <h3>Web Designer (Trainee) — National Telecommunication Institute (NTI), Ministry of Communications and Information Technology</h3>
+          <time>07/2024 – 08/2024 | Menoufia, Egypt</time>
+          <p>Graduated from the intensive Digital Egypt Youth program with a distinguished score of 98%. The curriculum consisted of 90 technical hours dedicated to mastering modern web design principles and front-end development technologies. Gained hands-on experience creating responsive, user-friendly websites and completed a 30-hour module on freelancing, client acquisition strategies, project management methodologies, and effective self-marketing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects container" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid projects-grid">
+        <div class="project-card animate">
+          <h4>pharmacy website</h4>
+          <p>A modern pharmacy website built with React and TypeScript that allows users to browse medicines, view details, and place online orders. Styled with clean and responsive CSS for an intuitive user experience. Tech: HTML, CSS, JavaScript.</p>
+          <a href="https://mohammedmajidmohammed.github.io/pharmacy-web-design/" class="link">View source</a>
+        </div>
+        <div class="project-card animate">
+          <h4>Digital Clock</h4>
+          <p>A responsive digital clock built with HTML, CSS, and JavaScript that displays real-time hours, minutes, and seconds with a clean and modern design.</p>
+          <a href="https://mohammedmajidmohammed.github.io/Digital-Clock/" class="link">View details</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills container" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="card">
+        <p class="muted">Python, TensorFlow, Scikit-learn, PyTorch, pandas, numpy, SQL, MySQL, OracleDB, SQL Server, PostgreSQL, Mathematics & Algorithms, Linear Algebra, Calculus & Probability, Statistical analysis, Optimization Techniques, Computer Vision, OpenCV, CNN, GANs, Analytical thinking and problem-solving, NoSQL, MongoDB, Cassandra, Data Visualization, Matplotlib, seaborn, Tableau, PowerBI, NLP</p>
+      </div>
+    </section>
+
+    <section class="languages container" id="languages">
+      <h2 class="section-title">Languages</h2>
+      <div class="card grid">
+        <div>
+          <strong>English</strong>
+          <div>Fluent</div>
+        </div>
+        <div>
+          <strong>Arabic</strong>
+          <div>Native</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="card">
+  <p>If you’d like to work together, email me at <a href="mailto:mohmajid2004@icloud.com">mohmajid2004@icloud.com</a> or use the quick form below. You can also view my LinkedIn profile: <a href="https://www.linkedin.com/in/mohammed-majid-55a4a8388/" target="_blank" rel="noreferrer">linkedin.com/in/mohammed-majid-55a4a8388</a>.</p>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send message</button>
+            <button class="btn ghost" id="formResume" type="button">Download Resume</button>
+          </div>
+          <p id="formStatus" class="muted"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+  <p>© <span id="year"></span> Mohammed Majid. Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
